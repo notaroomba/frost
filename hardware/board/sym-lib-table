@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "lcsc")(type "KiCad")(uri "C:/Users/Nathan Alspaugh/Documents/GitHub/frost/hardware/lib/lcsc.kicad_sym")(options "")(descr ""))
+  (lib (name "RK3568")(type "KiCad")(uri "C:/Users/Nathan Alspaugh/Documents/GitHub/frost/hardware/lib/RK3568/RK3568.kicad_sym")(options "")(descr ""))
+)
