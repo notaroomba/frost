@@ -12323,6 +12323,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C3345225"
+			(at 27.94 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "D26"
 			(uuid "8079e7f9-5ba5-491b-aed7-e65043012eaa")
 		)
