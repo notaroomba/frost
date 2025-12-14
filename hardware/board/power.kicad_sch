@@ -36975,7 +36975,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VCC_1V8"
+		(property "Value" "VCCA1V8_IMAGE"
 			(at 279.4 363.982 0)
 			(effects
 				(font

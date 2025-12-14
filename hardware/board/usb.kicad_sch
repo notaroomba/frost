@@ -659,167 +659,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:C_Polarized"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 0.635 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "C_Polarized"
-				(at 0.635 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0.9652 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Polarized capacitor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "cap capacitor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "CP_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "C_Polarized_0_1"
-				(rectangle
-					(start -2.286 0.508)
-					(end 2.286 1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 2.286) (xy -0.762 2.286)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 2.794) (xy -1.27 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 2.286 -0.508)
-					(end -2.286 -1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-			(symbol "C_Polarized_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:L_Iron_Coupled_Small"
 			(pin_names
 				(offset 0.254)
@@ -1962,12 +1801,6 @@
 		(uuid "75c91221-06e4-4c72-b1ee-0b735af075a5")
 	)
 	(junction
-		(at 214.63 107.95)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a9b5f417-6488-428b-b9c9-bc23d7df05df")
-	)
-	(junction
 		(at 82.55 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1996,6 +1829,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e82246b2-c556-4fef-8fbf-6d8293862bdf")
+	)
+	(junction
+		(at 214.63 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e8c884f8-dc34-48b0-b619-158ba049bbb6")
 	)
 	(junction
 		(at 74.93 100.33)
@@ -2081,7 +1920,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 107.95) (xy 200.66 107.95)
+			(xy 200.66 107.95) (xy 214.63 107.95)
 		)
 		(stroke
 			(width 0)
@@ -2451,6 +2290,16 @@
 	)
 	(wire
 		(pts
+			(xy 214.63 107.95) (xy 227.33 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c87070b7-7bf3-4bc8-8b1d-b1c68c6ab86a")
+	)
+	(wire
+		(pts
 			(xy 43.18 62.23) (xy 43.18 63.5)
 		)
 		(stroke
@@ -2518,16 +2367,6 @@
 			(type default)
 		)
 		(uuid "f1ba96cb-94ed-459f-be2b-8a057f9a928a")
-	)
-	(wire
-		(pts
-			(xy 214.63 107.95) (xy 227.33 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f4ff5f1c-0dc1-4932-87fb-f08679e22d4b")
 	)
 	(wire
 		(pts
@@ -4377,84 +4216,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 214.63 111.76 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c1e1a10b-51f6-4d0a-9498-25accd9dc810")
-		(property "Reference" "C122"
-			(at 217.678 109.8549 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "120uF\nSVPF\n20V"
-			(at 217.678 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x5.9"
-			(at 215.5952 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 214.63 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Polarized capacitor"
-			(at 214.63 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C371973"
-			(at 214.63 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "065d0ce2-0120-4ae7-bf23-97555121c909")
-		)
-		(pin "2"
-			(uuid "1f0435ce-f83d-455b-8064-031bb5b47950")
-		)
-		(instances
-			(project ""
-				(path "/3bc38516-4fe0-4022-adb8-9fd55b66cd2d/c07c3c7a-b8b0-4fa9-bbf1-2e0263ea0c12"
-					(reference "C122")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 66.04 113.03 0)
 		(unit 1)
@@ -5079,6 +4840,76 @@
 			(project "frost"
 				(path "/3bc38516-4fe0-4022-adb8-9fd55b66cd2d/c07c3c7a-b8b0-4fa9-bbf1-2e0263ea0c12"
 					(reference "#PWR0212")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 214.63 111.76 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f998bc4d-aeff-4d85-8668-158b9ea44d60")
+		(property "Reference" "C122"
+			(at 221.488 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "47uF\nX5R\n6.3V"
+			(at 221.742 113.538 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 215.5952 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 214.63 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 214.63 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "bac985c0-7dc7-4530-bef8-047d993b292e")
+		)
+		(pin "1"
+			(uuid "75c075e0-ae7d-46f4-9317-64c1148ba4cf")
+		)
+		(instances
+			(project "frost"
+				(path "/3bc38516-4fe0-4022-adb8-9fd55b66cd2d/c07c3c7a-b8b0-4fa9-bbf1-2e0263ea0c12"
+					(reference "C122")
 					(unit 1)
 				)
 			)
