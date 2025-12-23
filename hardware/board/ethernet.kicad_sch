@@ -2658,6 +2658,16 @@
 		)
 		(uuid "283ec988-39b4-4a54-89c2-b36a72e8864a")
 	)
+	(text "Might be optional"
+		(exclude_from_sim no)
+		(at 200.66 74.93 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "5e3de140-b5a6-4ef3-837b-ab686f007289")
+	)
 	(text "Close to PHY"
 		(exclude_from_sim no)
 		(at 59.3697 188.5131 0)
@@ -4860,7 +4870,7 @@
 		)
 		(uuid "24f55971-eb00-42de-8dd0-5fe8f0c5ff4f")
 	)
-	(label "PHY0_LED1_N"
+	(label "PHY0_LED1_P"
 		(at 356.87 100.33 180)
 		(effects
 			(font
@@ -5180,7 +5190,7 @@
 		)
 		(uuid "b5e41507-c4c5-4e7f-a04a-140439655334")
 	)
-	(label "PHY0_LED1_N"
+	(label "PHY0_LED1_P"
 		(at 369.57 144.78 180)
 		(effects
 			(font
@@ -5482,7 +5492,7 @@
 			)
 		)
 	)
-	(global_label "PHY0_LED0{slash}CFG_EXT"
+	(global_label "GMAC0_INT{slash}PMEB_GPIO3_C0"
 		(shape output)
 		(at 173.99 114.3 0)
 		(fields_autoplaced yes)
@@ -5494,7 +5504,7 @@
 		)
 		(uuid "42da4ceb-523e-432f-86b0-3a5ac856c009")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 196.7508 114.3 0)
+			(at 203.7056 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5526,7 +5536,7 @@
 			)
 		)
 	)
-	(global_label "GMAC0_MCLKINOUT"
+	(global_label "GMAC0_RSTn_GPIO3_B0"
 		(shape input)
 		(at 33.02 119.38 180)
 		(fields_autoplaced yes)
@@ -5538,7 +5548,7 @@
 		)
 		(uuid "712821aa-b53e-49c1-be92-1121804eafc2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 12.1943 119.38 0)
+			(at 8.0821 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
