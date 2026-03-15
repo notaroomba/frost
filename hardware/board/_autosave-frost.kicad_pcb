@@ -115617,7 +115617,7 @@
 	(footprint "lcsc:RJ45-TH_10P-P2.54-S2.54_L16.1-W21.4_HY911130A"
 		(layer "F.Cu")
 		(uuid "e9e9be63-e2d2-4a39-bfc1-ac87ca64221b")
-		(at 25.7775 121.2275)
+		(at 25.7775 116.75)
 		(property "Reference" "RJ1"
 			(at 0 -10.89 0)
 			(layer "F.SilkS")
