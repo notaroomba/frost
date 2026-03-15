@@ -653,6 +653,10 @@
     [
       "cd54d5d2-a5f5-41ed-adb4-4bc9b5b7ebfe",
       "PCIE"
+    ],
+    [
+      "c3aa7853-3ef1-4fb6-a306-ba629276359c",
+      "Sensors"
     ]
   ],
   "text_variables": {}

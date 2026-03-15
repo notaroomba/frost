@@ -41802,6 +41802,48 @@
 		)
 	)
 	(sheet
+		(at 396.24 398.78)
+		(size 73.66 52.07)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c3aa7853-3ef1-4fb6-a306-ba629276359c")
+		(property "Sheetname" "Sensors"
+			(at 396.24 398.0684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sensors.kicad_sch"
+			(at 396.24 451.4346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "frost"
+				(path "/3bc38516-4fe0-4022-adb8-9fd55b66cd2d"
+					(page "12")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 421.64 -30.48)
 		(size 77.47 41.91)
 		(exclude_from_sim no)
