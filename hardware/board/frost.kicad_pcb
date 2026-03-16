@@ -29585,9 +29585,9 @@
 				)
 			)
 		)
-		(path "/f7113cf5-3c0d-437f-9eb0-ec4f57ae739e")
-		(sheetname "/")
-		(sheetfile "frost.kicad_sch")
+		(path "/c4f9ec5f-030b-4703-974a-9cfaf6f0a6d7/ddbb0a26-1356-47e0-b52f-815a707bfb73")
+		(sheetname "/Power/")
+		(sheetfile "power.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -9.5 -9.5)

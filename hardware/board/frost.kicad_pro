@@ -615,32 +615,28 @@
       "Root"
     ],
     [
-      "c07c3c7a-b8b0-4fa9-bbf1-2e0263ea0c12",
-      "USB"
-    ],
-    [
-      "0e524693-1385-44a5-8ddc-4101f4362025",
-      "Ethernet"
-    ],
-    [
-      "806e8f7b-4aae-4b3f-8a71-69de35ca9f13",
-      "Memory and Storage"
-    ],
-    [
-      "04a0cbae-22f0-4677-b810-0581f5eb45ac",
-      "HDMI"
-    ],
-    [
       "c4f9ec5f-030b-4703-974a-9cfaf6f0a6d7",
       "Power"
+    ],
+    [
+      "c07c3c7a-b8b0-4fa9-bbf1-2e0263ea0c12",
+      "USB"
     ],
     [
       "8c9baa61-05fe-4ea8-9287-072748c6c20c",
       "WiFi and Bluetooth"
     ],
     [
-      "dbcf2505-8053-4a61-9f30-22e0e1eb9f47",
-      "Peripherals"
+      "806e8f7b-4aae-4b3f-8a71-69de35ca9f13",
+      "Memory and Storage"
+    ],
+    [
+      "0e524693-1385-44a5-8ddc-4101f4362025",
+      "Ethernet"
+    ],
+    [
+      "04a0cbae-22f0-4677-b810-0581f5eb45ac",
+      "HDMI"
     ],
     [
       "f30b87ec-05e0-46af-9a5b-7c8282db8959",
@@ -657,6 +653,10 @@
     [
       "c3aa7853-3ef1-4fb6-a306-ba629276359c",
       "Sensors"
+    ],
+    [
+      "dbcf2505-8053-4a61-9f30-22e0e1eb9f47",
+      "Peripherals"
     ]
   ],
   "text_variables": {}
