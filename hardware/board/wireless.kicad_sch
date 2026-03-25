@@ -17434,8 +17434,8 @@
 				)
 			)
 		)
-		(property "Value" "0R 5%"
-			(at 244.856 115.57 90)
+		(property "Value" "22R 5%"
+			(at 245.364 115.57 90)
 			(effects
 				(font
 					(size 1.27 1.27)

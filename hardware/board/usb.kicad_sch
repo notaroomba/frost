@@ -15248,7 +15248,7 @@
 	)
 	(global_label "USB3_HOST1_SSTXP"
 		(shape output)
-		(at 193.04 88.9 0)
+		(at 193.04 86.36 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -15258,7 +15258,7 @@
 		)
 		(uuid "0ea0d69c-9b99-40a4-8b4c-55a2229a6d26")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 214.8936 88.9 0)
+			(at 214.8936 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15402,7 +15402,7 @@
 	)
 	(global_label "USB3_HOST1_SSRXN"
 		(shape input)
-		(at 193.04 91.44 0)
+		(at 193.04 93.98 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -15412,7 +15412,7 @@
 		)
 		(uuid "37713ff9-d379-41b9-bb6d-10bd91307f32")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 215.2565 91.44 0)
+			(at 215.2565 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15446,7 +15446,7 @@
 	)
 	(global_label "USB3_HOST1_SSRXP"
 		(shape input)
-		(at 193.04 93.98 0)
+		(at 193.04 91.44 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -15456,7 +15456,7 @@
 		)
 		(uuid "4524dd5a-602b-4b3a-8a93-b8ebdd43f0c5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 215.196 93.98 0)
+			(at 215.196 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15468,7 +15468,7 @@
 	)
 	(global_label "USB3_OTG0_SSTXP"
 		(shape output)
-		(at 194.31 68.58 0)
+		(at 194.31 66.04 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -15478,7 +15478,7 @@
 		)
 		(uuid "4869201d-45e2-4993-a243-433c3b1d2691")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 214.8936 68.58 0)
+			(at 214.8936 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15490,7 +15490,7 @@
 	)
 	(global_label "USB3_OTG0_SSRXP"
 		(shape input)
-		(at 194.31 73.66 0)
+		(at 194.31 71.12 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -15500,7 +15500,7 @@
 		)
 		(uuid "667cf1a1-52a9-4ba2-8f2b-bcaa2073803f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 215.196 73.66 0)
+			(at 215.196 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15510,7 +15510,7 @@
 			)
 		)
 	)
-	(global_label "USB3_OTG0_DP"
+	(global_label "USB3_OTG0_DM"
 		(shape bidirectional)
 		(at 193.04 50.8 0)
 		(fields_autoplaced yes)
@@ -15522,7 +15522,7 @@
 		)
 		(uuid "67d78483-3035-4b07-94f9-5b8e8a5b71bc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 211.4088 50.8 0)
+			(at 211.5902 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15644,7 +15644,7 @@
 	)
 	(global_label "USB3_OTG0_SSRXN"
 		(shape input)
-		(at 194.31 71.12 0)
+		(at 194.31 73.66 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -15654,7 +15654,7 @@
 		)
 		(uuid "82c5923e-6460-446e-970c-12645a8b95d1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 215.2565 71.12 0)
+			(at 215.2565 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15688,7 +15688,7 @@
 	)
 	(global_label "USB3_OTG0_SSTXN"
 		(shape output)
-		(at 194.31 66.04 0)
+		(at 194.31 68.58 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -15698,7 +15698,7 @@
 		)
 		(uuid "a65df960-119f-4cfc-9330-4f5d269d3a8c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 214.9541 66.04 0)
+			(at 214.9541 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15754,7 +15754,7 @@
 	)
 	(global_label "USB3_HOST1_SSTXN"
 		(shape output)
-		(at 193.04 86.36 0)
+		(at 193.04 88.9 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -15764,7 +15764,7 @@
 		)
 		(uuid "b76841de-89f1-467d-8354-a604f5db2eab")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 214.9541 86.36 0)
+			(at 214.9541 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23269,7 +23269,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "lcsc:USB-A-SMD_U-A-39SS-W-1"
 			(at 44.45 157.48 0)
 			(effects
 				(font

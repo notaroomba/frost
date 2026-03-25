@@ -25924,7 +25924,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp yes)
 		(uuid "7a95802e-353e-4afa-be58-7ccc80c1a9f6")
 		(property "Reference" "R170"
@@ -26057,15 +26057,14 @@
 	(symbol
 		(lib_id "Device:R")
 		(at 95.25 119.38 270)
-		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp yes)
 		(uuid "81703c8e-b952-41bc-8fa8-ddd507e6cb11")
 		(property "Reference" "R168"
-			(at 89.662 118.11 90)
+			(at 89.662 120.65 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26073,7 +26072,7 @@
 			)
 		)
 		(property "Value" "10K 5%"
-			(at 102.362 118.11 90)
+			(at 102.362 120.65 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26081,7 +26080,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 95.25 121.158 90)
+			(at 95.25 117.602 90)
 			(effects
 				(font
 					(size 1.27 1.27)
